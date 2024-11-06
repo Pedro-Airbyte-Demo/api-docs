@@ -28,7 +28,17 @@
   "tabs": [
     {
       "name": "API Reference",
-      "url": "api-reference"
+      "url": "reference"
+    },
+    {
+      "name": "Connections",
+      "url": "connections",
+      "openapi": "https://raw.githubusercontent.com/airbytehq/airbyte-platform/refs/heads/main/airbyte-api/server-api/src/main/openapi/api_documentation_connections.yaml"
+    },
+    {
+      "name": "Sources",
+      "url": "sources",
+      "openapi": "https://raw.githubusercontent.com/airbytehq/airbyte-platform/refs/heads/main/airbyte-api/server-api/src/main/openapi/api_documentation_sources.yaml"
     }
   ],
   "anchors": [
@@ -71,15 +81,15 @@
     {
       "group": "API Documentation",
       "pages": [
-        "api-reference/introduction"
+        "reference/introduction"
       ]
     },
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "reference/endpoint/get",
+        "reference/endpoint/create",
+        "reference/endpoint/delete"
       ]
     }
   ],
